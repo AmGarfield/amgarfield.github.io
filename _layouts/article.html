@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ page.description }}" />
+    <title>{{ page.title }} — Jie Hu</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="article-shell" id="top">
+      <header class="site-header">
+        <a class="site-name" href="/" aria-label="Jie Hu, home">Jie Hu</a>
+        <nav aria-label="Primary navigation">
+          <a href="/">Home</a>
+          <a href="/#publications">Publications</a>
+          <a href="/#writing">Writing</a>
+          <a href="https://github.com/AmGarfield">GitHub</a>
+        </nav>
+      </header>
+
+      <header class="article-header">
+        <p class="article-kicker">Position piece · 2026</p>
+        <h1>{{ page.title }}</h1>
+        <p class="article-byline">Jie Hu</p>
+      </header>
+
+      <article class="essay">{{ content }}</article>
+
+      <footer>
+        <p>Jie Hu</p>
+        <div class="footer-links">
+          <a href="mailto:hujiesse@gmail.com">hujiesse@gmail.com</a>
+          <a href="/">Back to homepage</a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
